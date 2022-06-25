@@ -71,7 +71,7 @@ li.nav-item {
 
 /* main banner */
 
-.main-banner{background-image: url("images/banner-bg.jpg"); background-repeat:no-repeat; background-size:cover;
+.main-banner{background-image: url("banner-bg.jpg"); background-repeat:no-repeat; background-size:cover;
   padding-top: 270px; padding-bottom: 200px; background-position: center center;}
 
 .main-fix{display: flex;
@@ -292,7 +292,7 @@ button.btn.explore {
 
     /* start create-nft css  */
  
-    .create-nft{background-image: url('images/main-bg.jpg'); background-repeat: no-repeat; background-size: cover;
+    .create-nft{background-image: url('main-bg.jpg'); background-repeat: no-repeat; background-size: cover;
     background-position: center center; position: relative; padding:100px 0;}
  .line-hr {
     width: 100px;
@@ -363,7 +363,7 @@ button.btn.explore {
 /* tabs section start */
 .section-tabs {
     position: relative;
-    background-image: url('images/dark-bg.jpg'); background-repeat: no-repeat; background-size: cover; 
+    background-image: url('dark-bg.jpg'); background-repeat: no-repeat; background-size: cover; 
     background-position: center center; padding: 100px 0;
 }
 a.nav-link {
