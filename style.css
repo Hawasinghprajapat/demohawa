@@ -71,7 +71,7 @@ li.nav-item {
 
 /* main banner */
 
-.main-banner{background-image: url("images/banner-bg.jpg"); background-repeat:no-repeat; background-size:cover;
+.main-banner{background-image: url("banner-bg.jpg"); background-repeat:no-repeat; background-size:cover;
   padding-top: 270px; padding-bottom: 200px; background-position: center center;}
 
 .main-fix{display: flex;
