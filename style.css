@@ -71,7 +71,7 @@ li.nav-item {
 
 /* main banner */
 
-.main-banner{background-image: url("banner-bg.jpg"); background-repeat:no-repeat; background-size:cover;
+.main-banner{background-image: url("images/banner-bg.jpg"); background-repeat:no-repeat; background-size:cover;
   padding-top: 270px; padding-bottom: 200px; background-position: center center;}
 
 .main-fix{display: flex;
@@ -292,7 +292,7 @@ button.btn.explore {
 
     /* start create-nft css  */
  
-    .create-nft{background-image: url('main-bg.jpg'); background-repeat: no-repeat; background-size: cover;
+    .create-nft{background-image: url('images/main-bg.jpg'); background-repeat: no-repeat; background-size: cover;
     background-position: center center; position: relative; padding:100px 0;}
  .line-hr {
     width: 100px;
@@ -363,7 +363,7 @@ button.btn.explore {
 /* tabs section start */
 .section-tabs {
     position: relative;
-    background-image: url('dark-bg.jpg'); background-repeat: no-repeat; background-size: cover; 
+    background-image: url('images/dark-bg.jpg'); background-repeat: no-repeat; background-size: cover; 
     background-position: center center; padding: 100px 0;
 }
 a.nav-link {
@@ -457,7 +457,7 @@ li.tab-li {
 li.tab-li.active {
     background: #7769fc;
     border: 1px solid #7769fc;
-    border-radius: 20px;}
+    border-radius: 15px;}
 
 
 
@@ -542,7 +542,10 @@ input.form-input.form-control {
         background: #fff;
         color: #7769fc;
     }
-
+    li.tab-li:hover {
+        background: #7769fc;
+        border: 1px solid #7769fc; border-radius: 15px;
+    }
 
 @media(max-width:991px){
 .icon{display:block;     border: 1px solid #ddd;
@@ -587,6 +590,9 @@ input.form-input.form-control {
 
 .main-banner{padding-top: 100px; padding-bottom: 100px;}
 .pad-bo-50{padding-bottom: 50px;}
+.footer-main{padding:80px 10px 0px 10px;}
+ul.foo-item{margin:0px 0px!important;}
+
 
 }
 
