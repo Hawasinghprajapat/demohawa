@@ -451,7 +451,7 @@ button.btn.tab-btn:hover{background-color: #fff; color: #7769fc;}
 }
 
 li.tab-li {
-    color: #fff;
+    color: #fff; margin:0 4px;
     padding: 8px 16px; font-size: 16px; cursor: pointer;
 }
 li.tab-li.active {
@@ -471,6 +471,9 @@ ul.foo-item {
     display: block;
     margin: 0px 90px!important;
   
+}
+button.btn.btn-subs:focus {
+    outline: none;
 }
 li.list-item {
     font-size: 17px;
@@ -544,7 +547,7 @@ input.form-input.form-control {
     }
     li.tab-li:hover {
         background: #7769fc;
-        border: 1px solid #7769fc; border-radius: 15px;
+        border-radius: 15px;
     }
 
 @media(max-width:991px){
